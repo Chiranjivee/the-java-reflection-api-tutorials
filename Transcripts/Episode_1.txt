@@ -1,0 +1,68 @@
+Hi internet,
+
+What is up?
+Today, in this video we are going to talk about the JAVA REFLECTION API. 
+And why you need to learn it. And specifically where you should be using this
+powerful feature in your day 2 	day programming activities. What is the problem 
+that this API is trying to solve and why is it important and what are the 
+responsibilities of this api, and what is it that you should be taking 
+care of while you are using it.
+
+So, I CJ am your host today and my friend today are going to learn THE JAVA REFLECTION API. 
+
+In this lecture, we will be covering the basics of what java reflection api is,
+what are the advantages java reflection api gives us over the traditional java
+development, what are the 	drawbacks or disadvantages you should be taking care
+of and last but not the least, what we will be covering in future in this course.
+
+Starting with the definition, Java reflection is commonly used by programs which
+require the ability to examine or modify the runtime behaviour of applications
+running inside the java 	virtual machine. I would like to stress upon the part
+in this definition so that you understand it clearly that this api is not a general
+purpose thing which you can use out of the box. It has a very specific use case
+and that is to examine or modify the runtime behaviour of applications running
+inside the JVM. Given that you have this requirement Java Reflection API is the 
+tool for your needs.
+
+Alright the definition covers why do we want to use this library ? But, what exactly
+are the advantages or feature we are getting from using this api, so moving on to
+the benefits, we get extensibility, class browsers and visual ides, 
+debugging and testing tools. Using this api you get enormous power in the 
+Java world you get the extensibility to do almost anything. 
+Impossible tasks which you cannot even imagine doing with the default language 
+features can now be covered. Like scanning the class-path for annotation which are
+basically defined by you, or halting the execution of java programming for debugging purpose, 
+creating a library which allow you to run tests and measure the execution time and so on. 
+These are the 	features and the possibilities that you get when you use this api which is almost
+impossible to do in the basic java language.
+
+So far so good right?? But there’s always a catch, you are getting so many features
+my friend but with this much flexibility you have to make sure that everything is
+working correctly and 	you are not introducing any problems hiding behind these
+glittering features. So, now we will look at some of the disadvantages for the Java
+reflection api these are pretty straightforward disadvantages but they have a lot to
+care about. The api can cause performance overhead as monitoring and observing and
+tweaking the JVM itself can be a quite hefty task and you might, end up breaking the 
+programs logic or crashing the JVM or making it extremely slow, Security aspects, 
+when you are in charge, oh my god you have to do so many things like making sure,
+everybody around is safe. Java reflection api can let you access private members 
+inside classes and break abstraction by letting you programmatically modify these 
+resources, you as an application programmer has the responsibility to make sure that
+everything is secure. Exposure of internals, as I already mentioned that you have such
+in depth kind of control over the programs flow that it’s very easy to actually corrupt
+the logic or violate encapsulation and source code can end up being a big pile mess.
+
+But, don’t worry I will be helping you learn this beautiful yet a beauty concept and
+in no time you will be coding your own java application using the reflection api. And
+now, we are done with the basic introduction on this topic, so I will be going over the
+course materials which I will be covering in this playlist. 
+
+So, we have a deep dive of accessing the classes using the reflection api, a in-depth
+tutorials on accessing methods inside these classes and the arrays and other enumerated
+types, which we will be covering in the upcoming videos. 
+
+If you have any questions ask it in the comments and don’t forget to give a thumbs up if you
+like this video. 
+
+Stay tuned for more. 
+Till then, bye bye. 
